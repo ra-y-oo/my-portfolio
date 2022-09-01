@@ -1,0 +1,133 @@
+/*notes 
+I believe web design can be more diverse and inspiring.*/
+:root {
+  --background: #009DD9;
+  --fontcol: #FFF;
+  --yellow: #FFF281;
+  --dark: #2C2C2C;
+  --fontfam: 'Poppins', sans-serif;
+}
+
+body {
+  color: var(--fontcol);
+  background: var(--background);
+  text-align: center;
+  font-family: var(--fontfam);
+  font-size: 1.5em;
+  margin: 0;
+}
+
+span.yellow {
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+hr {
+  border: dotted var(--yellow) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: var(--fontcol);
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: var(--fontcol);
+}
+
+div.top-container {
+  position: relative;
+  padding-top: 100px;
+  line-height: 1;
+}
+
+div.top-container h1 {
+  margin: 300px auto 0 auto;
+  font-size: 5.625rem;
+}
+
+div.top-container h2 {
+  font-size: 5.625rem;
+}
+
+div.top-container img.top-cloud {
+  /*display: none;*/
+  position: absolute;
+  right: 100px;
+  top: 70px;
+}
+
+div.top-container img.bottom-cloud {
+  position: absolute;
+  left: 100px;
+}
+
+div.middle-container {
+  margin: 300px 0;
+}
+
+div.middle-container .contact-msg {
+  width: 30%;
+}
+
+div.middle-container .intro {
+  width: 30%;
+}
+
+div.middle-container p {
+  margin: 100px auto;
+}
+
+div.middle-container div.skills .skill-row {
+  width: 70%;
+  margin: 200px auto;
+  text-align: left;
+}
+
+div.middle-container div.skills .skill-row .skill1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+div.middle-container div.skills .skill-row .skill2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--fontcol);
+  background: var(--dark);
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: var(--yellow);
+  padding: 20px;
+  border-color: var(--background);
+  color: var(--dark);
+}
+
+.bottom-container {
+  background: var(--dark);
+  padding: 50px 0 20px;
+}
+
+.bottom-container .copyright {
+  color: var(--yellow);
+  font-size: 1.75rem;
+  padding: 20px 0;
+}
+
+.bottom-container .footer-link:hover {
+  color: var(--yellow);
+}
+/*# sourceMappingURL=style.css.map */

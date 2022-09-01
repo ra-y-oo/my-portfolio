@@ -1,0 +1,114 @@
+/*notes 
+I believe web design can be more diverse and inspiring.*/
+:root{
+    --background: #009DD9;
+    --fontcol: #FFF;
+    --yellow: #FFF281;
+    --dark: #2C2C2C;
+    --fontfam: 'Poppins', sans-serif;
+}
+body{
+    color: var(--fontcol);
+    background: var(--background);
+    text-align: center;
+    font-family: var(--fontfam);
+    font-size: 1.5em;
+    margin: 0;
+}
+span.yellow{
+    color: var(--yellow);
+    font-weight: bold;
+}
+hr{
+    
+    border: dotted var(--yellow) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: var(--fontcol);
+    text-decoration: none;
+    margin: 10px 20px;
+}
+a:hover{
+    color: var(--fontcol);
+}
+
+div.top-container{
+    position: relative;
+    padding-top: 100px;
+    line-height: 1;
+    h1{
+        margin: 300px auto 0 auto;
+        font-size: 5.625rem;
+    }
+    h2{
+        font-size: 5.625rem;
+    }
+    img.top-cloud{
+        /*display: none;*/
+        position: absolute;
+        right: 100px;
+        top: 70px
+    }
+    img.bottom-cloud{
+        position: absolute;
+        left: 100px;
+    }
+}
+div.middle-container{
+    margin: 300px 0;
+    .contact-msg{
+        width: 30%;
+    }
+    .intro{
+        width: 30%;
+    }
+    p{
+        margin: 100px auto;
+    }
+    div.skills{
+        .skill-row{
+            width: 70%;
+            margin: 200px auto;
+            text-align: left;
+            .skill1{
+                width: 25%;
+                float: left;
+                margin-right: 30px;
+            }
+            .skill2{
+                width: 25%;
+                float: right;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+.btn{
+    text-decoration: none;
+    color: var(--fontcol);
+    background: var(--dark);
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: var(--yellow);
+    padding: 20px;
+    border-color: var(--background);
+    color: var(--dark);
+}
+.bottom-container{
+    background: var(--dark);
+    padding: 50px 0 20px;
+    .copyright{
+        color: var(--yellow);
+        font-size: 1.75rem;
+        padding: 20px 0;
+    }
+    .footer-link:hover{
+        color: var(--yellow);
+    }
+}
