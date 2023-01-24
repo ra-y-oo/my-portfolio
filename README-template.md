@@ -14,7 +14,7 @@ This is a portfolio site to showcase my work and projects.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS 
 - Bootstrap
 - SCSS
 
