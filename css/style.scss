@@ -20,7 +20,6 @@ span.yellow{
     font-weight: bold;
 }
 hr{
-    
     border: dotted var(--yellow) 6px;
     border-bottom: none;
     width: 4%;
@@ -31,20 +30,21 @@ a{
     text-decoration: none;
     margin: 10px 20px;
 }
-a:hover{
-    color: var(--fontcol);
+.active{
+     color: var(--yellow);
 }
 
 div.top-container{
     position: relative;
-    padding-top: 100px;
+    padding: 100px 15px;
     line-height: 1;
     h1{
         margin: 300px auto 0 auto;
-        font-size: 5.625rem;
+        font-size: 5rem;
     }
     h2{
-        font-size: 5.625rem;
+        /*fontsize: 5.625;*/
+        font-size: 5rem;
     }
     img.top-cloud{
         /*display: none;*/
@@ -59,11 +59,20 @@ div.top-container{
 }
 div.middle-container{
     margin: 300px 0;
-    .contact-msg{
-        width: 30%;
+    .me{
+        width: 50%;
+    }
+    .contact{
+        h2{
+            margin: auto;
+            width: 90%;
+        }
+        .contact-msg{
+            width: 70%;
+        }
     }
     .intro{
-        width: 30%;
+        width: 70%;
     }
     p{
         margin: 100px auto;
@@ -90,15 +99,17 @@ div.middle-container{
     text-decoration: none;
     color: var(--fontcol);
     background: var(--dark);
-    margin: auto;
-    padding: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    border: none;
     border-radius: 10px;
 }
 .btn:hover{
     background-color: var(--yellow);
-    padding: 20px;
-    border-color: var(--background);
     color: var(--dark);
+    a{
+        color: var(--dark);
+    }
 }
 .bottom-container{
     background: var(--dark);
@@ -111,4 +122,10 @@ div.middle-container{
     .footer-link:hover{
         color: var(--yellow);
     }
+}
+
+/*-------------------------DESKTOP STYLES---------------------------------------*/
+
+@media (min-width: 900px) {
+
 }

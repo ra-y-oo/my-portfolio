@@ -1,0 +1,29 @@
+:root{
+    --background: #009DD9;
+    --fontcol: #FFF;
+    --yellow: #FFF281;
+    --dark: #2C2C2C;
+    --fontfam: 'Poppins', sans-serif;
+}
+nav{
+    ul{
+    list-style: none;
+    .item{
+        text-align: left;
+        a{
+            font-weight: bold;
+        }
+    }
+    }
+}
+nav{
+    ul{
+    .item:hover{
+        a{
+        color: var(--yellow);
+        text-decoration: underline;
+        transition: 700ms ease-in-out;
+        }
+    }
+    }
+}

@@ -1,0 +1,53 @@
+:root {
+  --background: #009DD9;
+  --fontcol: #FFF;
+  --yellow: #FFF281;
+  --dark: #2C2C2C;
+  --fontfam: "Poppins", sans-serif;
+}
+
+.svg-lg {
+  display: none;
+}
+
+.icons {
+  background-color: hsla(0deg, 33%, 98%, 0.574);
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+}
+.icons .row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icons .row .item .icon {
+  display: block;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.showcase .card {
+  margin: 10px auto;
+  width: 316px;
+  background-color: var(--dark);
+}
+.showcase .card .img-area .desk-img {
+  display: none;
+}
+.showcase .card .description {
+  background-color: var(--dark);
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+}/*# sourceMappingURL=about.css.map */
