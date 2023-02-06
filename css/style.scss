@@ -111,6 +111,20 @@ div.middle-container{
         color: var(--dark);
     }
 }
+a{
+    .back-to-top-hover{
+        display: none;
+    }
+}
+a:hover{
+    color: var(--yellow);
+    .back-to-top{
+        display: none;
+    }
+    .back-to-top-hover{
+        display: contents;
+    }
+}
 .bottom-container{
     background: var(--dark);
     padding: 50px 0 20px;
@@ -127,5 +141,10 @@ div.middle-container{
 /*-------------------------DESKTOP STYLES---------------------------------------*/
 
 @media (min-width: 900px) {
+    div.middle-container{
+    .me{
+        width: 30%;
+    }
+}
 
 }

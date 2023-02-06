@@ -40,7 +40,6 @@
 .showcase .card {
   margin: 10px auto;
   width: 316px;
-  background-color: var(--dark);
 }
 .showcase .card .img-area .desk-img {
   display: none;
@@ -50,4 +49,47 @@
   margin: 0;
   text-align: center;
   padding: 5px;
+}
+
+@media (min-width: 900px) {
+  .showcase {
+    display: flex;
+    flex-direction: row;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .showcase .card {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .showcase .card .img-area .mobile-img {
+    display: none;
+  }
+  .showcase .card .img-area .desk-img {
+    display: block;
+    border-radius: 5%;
+    width: 400px;
+  }
+  .showcase .card .description {
+    display: none;
+  }
+  .showcase .card:hover {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .showcase .card:hover .img-area .mobile-img {
+    display: none;
+  }
+  .showcase .card:hover .img-area .desk-img {
+    display: block;
+    border-radius: 0;
+    width: 410px;
+  }
+  .showcase .card:hover .description {
+    display: block;
+    width: 400px;
+  }
 }/*# sourceMappingURL=about.css.map */

@@ -35,7 +35,6 @@
     .card{
         margin: 10px auto;
         width: 316px;
-        background-color: var(--dark);
         .img-area{
             .desk-img{
                 display: none;
@@ -48,4 +47,47 @@
             padding: 5px;
         }
     }
+}
+
+@media (min-width: 900px) {
+.showcase{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    .card{
+        width: fit-content;
+        .img-area{
+            .mobile-img{
+                display: none;
+            }
+            .desk-img{
+                display: block;
+                border-radius: 5%;
+                width: 400px;
+            }
+        }
+        .description{
+           display: none;
+        }
+    }
+}
+.showcase{
+    .card:hover{
+        width: fit-content;
+        .img-area{
+            .mobile-img{
+                display: none;
+            }
+            .desk-img{
+                display: block;
+                border-radius: 0;
+                width: 410px;
+            }
+        }
+        .description{
+           display: block;
+           width: 400px;
+        }
+    }
+}
 }

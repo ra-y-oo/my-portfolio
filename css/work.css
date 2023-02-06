@@ -19,5 +19,4 @@ nav ul .item a {
 nav ul .item:hover a {
   color: var(--yellow);
   text-decoration: underline;
-  transition: 700ms ease-in-out;
 }/*# sourceMappingURL=work.css.map */
